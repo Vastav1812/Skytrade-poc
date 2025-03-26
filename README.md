@@ -157,14 +157,3 @@ The built files will be in the `dist` directory, ready to be deployed to any sta
 anchor build
 anchor deploy
 ```
-
-## Getting Help
-
-If you encounter any issues or have questions about integrating with the SkyTrade platform, please:
-1. Check the existing GitHub issues
-2. Create a new issue with detailed information about your problem
-3. Reach out to the development team through the GitHub Discussions tab
-
----
-
-Thank you for your interest in contributing to the SkyTrade ecosystem! Together, we're building the infrastructure for the aerial economy of tomorrow. 
