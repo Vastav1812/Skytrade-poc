@@ -1,0 +1,41 @@
+{
+  "name": "skytrade-poc",
+  "version": "1.0.0",
+  "description": "SkyTrade Proof of Concept for air rights marketplace and drone flight management",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "build": "tsc",
+    "demo": "ts-node scripts/demo.ts",
+    "dev": "cd frontend-new && npm run dev",
+    "install:all": "npm install && cd frontend-new && npm install",
+    "build:all": "npm run build && cd frontend-new && npm run build",
+    "setup:env": "cd frontend-new && cp .env.example .env && echo 'Created .env file. Please edit it to add your Mapbox token.'"
+  },
+  "keywords": [
+    "blockchain",
+    "solana",
+    "airspace",
+    "drone",
+    "rights"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.3.8",
+    "@solana/web3.js": "^1.78.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.6",
+    "@types/jest": "^29.5.10",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.10.4",
+    "chai": "^4.3.8",
+    "jest": "^29.7.0",
+    "mocha": "^10.2.0",
+    "react-scripts": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  }
+}
